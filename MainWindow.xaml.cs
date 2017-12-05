@@ -48,7 +48,7 @@ namespace WpfTut
             InitializeComponent();
 
             // You can set window properties in code
-            this.Title = "Hello World";
+            this.Title = "Hello All the World !";
             this.WindowStartupLocation = WindowStartupLocation.CenterScreen;
         }
 
@@ -56,7 +56,7 @@ namespace WpfTut
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
             // Opens a message box
-            MessageBox.Show("The App is Closing");
+            MessageBox.Show("The App is Closing Now");
 
             // Closes the app
             this.Close();
@@ -86,7 +86,7 @@ namespace WpfTut
         {
             //usersName = UsersName.Text;
 
-            //MessageBox.Show($"Hello {usersName}");
+            //MessageBox.Show($"Hello dear {usersName}");
         }
     }
 }
